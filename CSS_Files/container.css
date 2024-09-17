@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+}
+
+.container-sm {
+  background-color: aquamarine;
+}
+
+.container-md {
+  background-color: yellow;
+}
+
+.container-lg {
+  background-color: pink;
+}
+
+.container-xl {
+  background-color: lightsalmon;
+}
+
+.container-xxl {
+  background-color: lightcyan;
+}
+
+.container-fluid {
+  background-color: lightgreen;
+}
+

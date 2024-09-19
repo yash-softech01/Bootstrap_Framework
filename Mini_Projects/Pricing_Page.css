@@ -1,0 +1,139 @@
+/* Global settings */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e0f7fa; /* Light Cyan Background */
+  margin: 0;
+  padding: 0;
+  color: #004d40; /* Deep Teal Text */
+}
+
+h1, h4 {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #00796b; /* Teal Blue for headings */
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #004d40; /* Text Color */
+}
+
+/* Cards grid system */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Card styling */
+.card {
+  background-color: #ffffff; /* White */
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 350px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  background-color: #3a75ff; /* Vivid Pink */
+  color: #ffffff; /* White */
+  padding: 1.5rem;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  padding: 5%;
+}
+
+.card-header h4 {
+  margin: 0;
+}
+
+.card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-body h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ff86ae; /* Vivid Pink */
+
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  color: #333333; /* Dark Gray */
+}
+
+.card-body ul li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+/* Button styles */
+.card-footer {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-footer a {
+  background-color: #ffab00; /* Bright Amber */
+  color: #ffffff; /* White */
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.card-footer a:hover {
+  background-color: #f57f17; /* Darker Amber on hover */
+}
+
+/* Highlight effect */
+.card:hover .card-body {
+  background-color: #ffff8d; /* Light Yellow */
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 2.2rem;
+  }
+  
+  .card-body h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+}

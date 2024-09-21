@@ -17,7 +17,7 @@ body {
 .sidebar {
   background-color: #000;
   width: 340px;
-  border-radius: 1rem;
+  border-radius: 1rem;  
   margin-right: 0.5rem;
 }
 
@@ -136,3 +136,37 @@ a {
   font-weight: 700;
   margin: 0.5rem;
 }
+
+.dark-badge {
+  background-color: #000;
+  color: white;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons {
+  margin-left: o.75rem;
+}
+
+.sticky-nav-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticky-nav-options button {
+  margin-right: 1rem;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+

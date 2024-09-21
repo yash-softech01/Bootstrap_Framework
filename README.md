@@ -1,1 +1,1 @@
-Spotify clone using html and css.
+Learning components of bootstrap and building projects.

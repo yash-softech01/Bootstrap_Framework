@@ -17,7 +17,7 @@ body {
 .sidebar {
   background-color: #000;
   width: 340px;
-  border-radius: 1rem;  
+  border-radius: 1rem;
   margin-right: 0.5rem;
 }
 
@@ -84,7 +84,7 @@ a {
 
 .options {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -176,7 +176,7 @@ a {
   .hide {
     display: none;
   }
-  
+
 }
 
 .card {
@@ -194,7 +194,7 @@ a {
 }
 
 .card-img {
-  width:100% ;
+  width: 100%;
   border-radius: 0.5rem;
 }
 
@@ -214,7 +214,7 @@ a {
   justify-content: center;
 }
 
-.line { 
+.line {
   width: 90%;
   height: 50%;
   border-top: 1px solid white;
@@ -233,11 +233,6 @@ a {
   width: 50%;
   padding-top: 0.75rem;
   background-color: #000;
-}
-
-.controls {
-  width: 25%;
-  /* background-color: green; */
 }
 
 .player-controls {
@@ -272,14 +267,77 @@ a {
 .progress-bar::-webkit-slider-runnable-track {
   background-color: #ddd;
   border-radius: 100px;
-  height: 0.2rem; 
+  height: 0.2rem;
 }
 
 .progress-bar::-webkit-slider-thumb {
   appearance: none;
   height: 1rem;
-  width:1rem;
+  width: 1rem;
   background-color: #1bd760;
   border-radius: 50%;
   margin: -6px;
+}
+
+.controls {
+  width: 25%;
+  padding-top: 1.2rem;
+  background-color: #000;
+}
+
+.ctrl-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctrl-icon {
+  margin-right: 0.7rem;
+  opacity: 0.7;
+  width: 1.2rem;
+  object-fit: contain;
+}
+
+.i3 {
+  width: 1rem;
+  opacity: .5;
+}
+
+.ctrl-icon:hover {
+  opacity: 1.5;
+}
+
+.volume {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  height: 1rem;
+  opacity: .7;
+}
+
+.volume:hover {
+  opacity: 1;
+}
+
+.volume-bar {
+  appearance: none;
+  width: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.volume-bar::-webkit-slider-runnable-track {
+  height: 0.2rem;
+  background-color: #ddd;
+  border-radius: 100px;
+}
+
+.volume-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: .5rem;
+  width: .5rem;
+  background-color: #40b0fa;
+  border-radius: 50%;
+  margin: -3px;
 }

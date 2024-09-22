@@ -12,6 +12,7 @@ body {
   display: flex;
   height: 100vh;
   padding: 0.5rem;
+
 }
 
 .sidebar {
@@ -177,6 +178,10 @@ a {
     display: none;
   }
 
+  .sidebar {
+    display: none;
+  }
+
 }
 
 .card {
@@ -196,6 +201,7 @@ a {
 
 .cards-container {
   display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -354,6 +360,4 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-    */
+} */

@@ -223,6 +223,7 @@ a {
 
 .music-player {
   display: flex;
+  padding-bottom: 5px;
 }
 
 .album {
@@ -341,3 +342,12 @@ a {
   border-radius: 50%;
   margin: -3px;
 }
+
+/* 
+.album-songs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+    */
